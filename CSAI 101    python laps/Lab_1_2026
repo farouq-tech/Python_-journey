@@ -1,0 +1,147 @@
+# ------------------------
+# The first lap doc .
+# Name : Farouq Arapi 
+# ID : 202511182 
+# ---------------------
+
+
+# Q 1 :Calculate and print the area of a circle.
+
+# r = int( input ("Enter the Radius of circle = " )) # We take the radius from user as a input 
+
+# pai =float (3.14)  #  define pai as float num 
+
+# Area = pai  * r**2     # define the formula  
+
+# print (Area)
+
+#-----------------------------------------------------------------------------------------------
+
+
+# Q 2 : Calculate and print the area of a triangle.
+
+
+
+# Base = float(input ("Enter the base of triangle = "))
+
+# Height = float (input ( " Enter the height of triangle = "))
+
+# Area = 0.5 * Base * Height  
+
+# print (Area)
+
+
+#----------------------------------------------------------------------------------------------
+
+
+# Q 3 : Calculate and print the average of 3 numbers. 
+
+# x = int ( input (" Enter x :"))
+
+# y = int (input ( " Enter y :"))
+
+# z = int (input ("Enter z :"))
+
+# Avg = (x + y + z)/3 
+
+# print (Avg)
+
+
+#---------------------------------------------------------------------------------------------
+
+# Q 4 :Calculate and print the distance between two points .
+
+# x1 =float (input ("Enter x1 : "))
+# x2 =float (input ("Enter x2 : "))
+# y1 =float (input ("Enter y1 : "))
+# y2 =float (input ("Enter y2 : "))
+
+# Dist =((x1-x2)**2 + (y1 -y2)**2)**0.5
+
+# print(Dist)
+
+
+#----------------------------------------------------------------------------------------------
+
+
+# Q 5 : Given number of weeks, calculate and print the number of minutes. 
+
+# weeks = int (input ("Enter the weeks : "))
+# days = weeks *7 
+# hours = days * 24 
+# minutes = hours * 60
+# print (minutes)
+
+#---------------------------------------------------------------------------------------------------
+
+# Q 6 : Calculate and print the number of days in N hours and the remaining hours.
+
+# hours = float(input (" Enter the hours : "))
+# Days =hours//24
+# remaining_hours =hours % 24 
+# print (Days )
+# print (remaining_hours)
+
+
+#--------------------------------------------------------------------------------------------------------
+
+# Q 7 :Calculate and print the number of trays, N, needed to hold X glasses if each tray  contains Y glasses.
+# import math
+# x = int (input ( "Enter num of glasses :"))
+# y= int ( input(" Enter Trays Capacity : "))
+# N = math.ceil(x/y)
+
+# print ("The trays you need = " , N)
+
+#------------------------------------------------------------------------------------------------------------
+# Q 8 :If you distribute N apples in groups of 7 apples each, how many groups will contain 
+# exactly 7 apples and how many apples remain?
+        
+# N =int (input ("Enter num of Apples : "))
+
+# groups =print ("num of groups = " , N // 7) 
+# r_apples = print ("remain apples =" , N % 7) 
+
+#--------------------------------------------------------------------------------------------------------------
+
+# Q 9 : Display N grams in the form of number of kilograms and number of grams.
+
+# N = float ( input (" Enter the num of grams do you have = "))
+# kg = N / 1000
+# print (kg)
+#--------------------------------------------------------------------------------------------------------------
+
+# Q 10 : Given temperature values in Celsius units (Tc), calculate the corresponding values
+# of Kelvin units (Tk) .abs
+
+# TC = float ( input ( " Enter the temperature in TC :  "))
+# Tk = TC + 273.15
+# print (Tk)
+
+
+#---------------------------------------------------------------------------------------------------------------
+
+# Q 11: 
+
+# x = int ( input(" Enter x : "))
+# y = int (input( " Enter y : ")) 
+
+# print("values before : " , "x = " ,x ," , y = " , y  )
+
+# z = y 
+
+# print("x after = ", z ," , y after = ", x )
+ 
+
+#---------------------------------------------------------------------------------------------------------------
+# Q 12 :
+# print ("Pleas Give me a three one-digit numbers . ")
+
+uni = int (input ("Pleas enter units : "))
+tens = int (input ( " Pleas Enter tens : "))
+hun =  int(input ( " pleas Enter hundreds: ") )
+num = (hun * 100) +( tens *10 )+uni 
+print (" THe num is " , num )
+
+
+

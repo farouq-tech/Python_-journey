@@ -1,0 +1,38 @@
+#Q_2 :
+
+# r = int(input ("Enter r : "))
+# Pi = 3.14
+# Area = Pi * r**2 
+# print (Area )
+#------------------------------
+#Q_3 :
+# x =int (input("Enter x : "))
+# z =int (input("Enter z : "))
+# y = int (input ("Enter y :"))
+ 
+# sum = x + z + y 
+
+# Avg = sum / 3 
+
+# print (Avg)
+
+
+#-------------------------------------
+# import math
+
+# x1=int(input("enter x1 :"))
+# y1=int(input ("enter y1:"))
+# y2=int(input ("enter y2:"))
+# x2=int(input ("enter x2:"))
+# dist=math.sqrt((x2-x1)**2 +(y2-y1)**2)
+# print(dist)
+
+#-------------------------------------
+
+#Q_5 : 
+
+# Weeks = int ( input ("Enter num of Weeks : " ))
+
+# num_of_minutes = Weeks * 7 * 24 * 60 
+
+# print ( num_of_minutes)
